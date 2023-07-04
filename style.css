@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.body{
+background-image: url(Hotel.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.header{
+margin: auto;
+padding-top: 10px;
+background-color: rgba(255, 228, 196, 0.404);
+width: 100%;
+float: left;
+height: 70px;
+left: 10px;
+position:sticky;
+text-align: center;
+font-family: sans-serif;
+
+}
+.ls{
+    background: transparent;
+    font-style: inherit;
+}
+.intro{
+    text-align: center;
+    word-spacing: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro:hover{
+    color: rgba(0, 0, 255, 0.575);
+}
+.a{
+    padding: 10px;
+    height:150px;
+    width: 300px;
+    top: 200px;
+    left: 20px;
+    position: sticky;
+    border-radius: 10px;
+    background-image: url(BeachRelax.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .4s ease-in-out;
+}
+.b{
+    padding: 10px;
+    height:150px;
+    width: 300px;
+    top: 200px;
+    left: 500px;
+    position: sticky ;
+    border-radius: 10px;
+    background-image: url(FloatBF.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.a1{
+    padding: 10px;
+    height:150px;
+    width: 300px;
+    top: 400px;
+    left: 20px;
+    position: sticky;
+    border-radius: 10px;
+    background-image: url(The\ Nautilus\ Maldives\ _\ ADORE\ Maldives.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.b1{
+    padding: 10px;
+    height:150px;
+    width: 300px;
+    bottom: 70px; ;
+    left: 500px;
+    position: sticky;
+    border-radius: 10px;
+    background-image: url(Pool.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.sidebar{
+    width: 250px;
+    height: 380px;
+    background:rgba(71, 71, 161, 0.473) ;
+    position: absolute;
+    top: 150px;
+    left: 1000px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    padding:0px;
+    background-color:rgba(165, 81, 42, 0.527) ;
+    height: 50px;
+    width: 100%;
+}
+.text{
+    font-size: 20px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.568);
+    transition: .4s ease-in-out;
+}
+.text:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.247);
+    border-radius: 5px;
+}
+.sidebar h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #fafafa;
+    font-size: 22px;
+    background-color: #00000091;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.sidebar input{
+    width: 240px;
+    height: 35px;
+    background: transparent ;
+    border-bottom: 1px solid #070707;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top:30px;
+    font-family: sans-serif;
+}
+.sidebar ::placeholder{
+    color: black;
+}
+footer {
+    background-color: rgba(255, 228, 196, 0.404);    
+    text-align: center;
+  }
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+.footer-nav {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+.footer-nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+.footer-nav li a {
+    color: #080808;
+    text-decoration: none;
+  }
+  
+.footer-nav li a:hover {
+    color: #1192b39c;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
