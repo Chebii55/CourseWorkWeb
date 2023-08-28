@@ -3,6 +3,8 @@
     <head>
         <title>Mercedes AVTR</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js">
+        </script> 
     </head>
     <body>
         <div class="a" id="as">
@@ -24,13 +26,14 @@
             <div class="sidebar"><aside> 
                 <h2>Login Here</h2>
                 <input type="email" name="email" placeholder="Enter email here">
-                <input type="password" name="" placeholder="Enter password here">
+                <input type="password" name="pass" placeholder="Enter password here">
                 <button class="btnn"><a href="#">Login</a></button>
 
                 <p class="link">Don't have an account?<br>
                 <a href="#">Sign up </a>here</a></p>
                 <p class="liw">Log in with:</p>
-                <div class="icon">
+                <div class="icon" >        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
                     <a href="#" ><ion-icon name="logo-facebook"></ion-icon></a>
                     <a href="#" ><ion-icon name="logo-twitter"></ion-icon></a>
                     <a href="#" ><ion-icon name="logo-instagram"></ion-icon></a>
@@ -83,10 +86,28 @@
         </div>
 
         </div>
-        <div class="e" id="es">            
-            <h1></h1>
+        <div class="e" id="es"> 
+                    
+ 
+           <div   > 
+            <h1>Contact us:</h1>
+            <p>These are our various social media accounts</p>
+                <a class="icon" href="#" ><ion-icon name="logo-facebook"></ion-icon>Mercedes Vision AVTR</a><br>
+                <a class="icon" href="#" ><ion-icon name="logo-twitter"></ion-icon>Mercedes Vision AVTR</a><br>
+                <a class="icon" href="#" ><ion-icon name="logo-instagram"></ion-icon>merc_avtr</a><br>
+                <a class="icon" href="#" ><ion-icon name="logo-google"></ion-icon>mercedesavtr.com</a><br>
+                <a class="icon" href="#" ><ion-icon name="mail"></ion-icon>mercedesavtr@gmail.com</a><br>
+                <a class="icon" href="#" ><ion-icon name="logo-skype"></ion-icon>Mercedes Vision</a><br><br>
+                <p style="font-size: 18px;">Send us a message now:</p>
+                <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
+                <input style="height: 40px; width: 200px;margin-top: 0px;" type="text" name="text" placeholder="Write to us HERE..."><br>
+                Gmail:<input type="email" name="email" placeholder="Enter email here">
+                <button type="submit" name="submit">Submit</button>
+            </form>
+
+                
         </div>
-        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        </div>
 
     </body>
 </html>
