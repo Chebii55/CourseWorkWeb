@@ -117,7 +117,7 @@ body, html {
 
 }
 ::placeholder{
-    color: #fff;
+    color: #ffffffe3;
     font-family: Arial;
 }
 .btnn{
@@ -266,5 +266,65 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+  }
+
+.e div{
+  background-color: #000000ab;
+  padding: 30px;
+  position: absolute;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+  border-radius: 10px;
+  color: #fafafa;
+  font-size: 20px;
+
+}
+.e input{
+    width: 240px;
+    height: 35px;
+    background: rgba(61, 39, 184, 0.541) ;
+    border-bottom: 1px solid #070707;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top:30px;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+.e input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: #000000e3;
+    font-family: Arial;
+}
+a:link {
+    color: rgb(5, 19, 214);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(192, 251, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgba(0, 17, 255, 0.479);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgba(0, 204, 255, 0.397);
+    background-color: transparent;
+    text-decoration: underline;
   }
   
